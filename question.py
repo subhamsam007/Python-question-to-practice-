@@ -50,9 +50,11 @@ def largest(num1,num2,num3):
 print(largest(num1=54, num2=25,num3=562))
  
 #  Q6. Convert temperature from Celsius to Fahrenheit. 
-
-
-
+def celsius_to_fahrengeit ():
+    celsius = int(input("enter the celcius : "))
+    fahrenheit = round((celsius*1.8) + 32 )
+    return fahrenheit
+print(celsius_to_fahrengeit())
 
 
 #  Q7. Write a program to calculate the factorial of a number using a loop. 
